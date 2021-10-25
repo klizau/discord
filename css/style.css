@@ -10,28 +10,76 @@ body {
   color: white;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-li{
-    list-style-type: none;
+.h3 {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 .aside {
   background-color: #000000;
-  
 }
 
 .main {
-  background-color: #b5b5b5;
+  display: grid;
+  grid-template-columns: 261px auto 201px;
 }
 
-.naviganion{
+.navigation {
+  background-color: #25272a;
   width: 261px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: regular;
   font-size: 14px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #b5b5b5;
+  display: grid;
+  row-gap: 12px;
+  padding-left: 35px;
+  padding-bottom: 14px;
+}
+
+.selected {
+  background-color: #8d8d8d;
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.server-data {
+  padding-left: 26px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 20;
+}
+
+.treads {
+  padding-left: 24px;
+  padding-bottom: 30px;
+}
+
+.title-with-indicator {
+  padding-left: 22px;
+  padding-bottom: 14px;
+  font-size: 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.counter {
+  display: flex;
+  justify-self: flex-end;
+  padding-right: 25px;
 }
