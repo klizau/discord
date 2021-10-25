@@ -35,8 +35,8 @@ li {
 }
 
 .navigation {
+  padding: 25px 35px 25px 14px;
   background-color: #25272a;
-  width: 261px;
   font-family: "Lato", sans-serif;
   font-weight: regular;
   font-size: 14px;
@@ -46,9 +46,8 @@ li {
   text-decoration: none;
   color: #b5b5b5;
   display: grid;
-  row-gap: 12px;
-  padding-left: 35px;
-  padding-bottom: 14px;
+  padding: 4px 13px 9px 13px;
+  margin-bottom: 3px;
 }
 
 .selected {
@@ -59,27 +58,27 @@ li {
 }
 
 .server-data {
-  padding-left: 26px;
-  padding-bottom: 30px;
   font-weight: bold;
   font-size: 20;
+  margin-bottom: 30px;
 }
 
 .treads {
-  padding-left: 24px;
-  padding-bottom: 30px;
+  margin-bottom: 31px;
 }
 
 .title-with-indicator {
-  padding-left: 22px;
-  padding-bottom: 14px;
   font-size: 12;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 14px;
 }
 
 .counter {
   display: flex;
   justify-self: flex-end;
-  padding-right: 25px;
+}
+
+.chat {
+  color: #000000;
 }
