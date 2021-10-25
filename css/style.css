@@ -1,0 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 70px auto;
+  color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.aside {
+  background-color: #000000;
+  
+}
+
+.main {
+  background-color: #b5b5b5;
+}
+
+.naviganion{
+  width: 261px;
+  font-family: 'Lato', sans-serif;
+  font-weight: regular;
+  font-size: 14px;
+}
