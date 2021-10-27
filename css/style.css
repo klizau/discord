@@ -21,7 +21,7 @@ ul {
   margin-right: 5px;
   padding: 0;
   font-weight: bold;
-  font-size: 20;
+  font-size: 20px;
 }
 
 .h3 {
@@ -38,7 +38,7 @@ li {
   text-decoration: none;
 }
 
-button{
+button {
   border: none;
   outline: none;
   background: transparent;
@@ -80,7 +80,7 @@ button{
 
 .server-data {
   font-weight: bold;
-  font-size: 20;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -89,7 +89,7 @@ button{
 }
 
 .title-with-indicator {
-  font-size: 12;
+  font-size: 12px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 14px;
@@ -111,7 +111,7 @@ button{
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
-.general-title{
+.general-title {
   display: flex;
 }
 
@@ -120,7 +120,7 @@ button{
   justify-self: flex-end;
 }
 
-.friends-amount{
+.friends-amount {
   margin-right: 24px;
 }
 
@@ -129,15 +129,16 @@ form {
   width: 300px;
   margin: 0 auto;
 }
-input, button {
+input,
+button {
   border: none;
   outline: none;
-  border-radius: 3px;
 }
 input {
   width: 100%;
   height: 42px;
-  background: #F9F0DA;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  border-radius: 3px;
   padding-left: 15px;
 }
 button {
@@ -149,7 +150,25 @@ button {
   cursor: pointer;
 }
 
-.bell{
+.bell {
   margin-left: 23px;
   margin-right: 22px;
+}
+
+.messages {
+  font-size: 13px;
+  line-height: 20px;
+  padding: 22px 18px 0 25px;
+}
+
+.time {
+  color: #8d8d8d;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 8px;
+}
+
+.person {
+  display: flex;
+  margin-bottom: 2px;
 }
