@@ -59,32 +59,53 @@
             <div class="counter">82</div>
           </div>
           <ul>
-            <li class="online"><a href="block" class="nav-link">Orlando Diggs</a></li>
-            <li class="online"><a href="block" class="nav-link">Carmen Velasco</a></li>
-            <li class="offline"><a href="block" class="nav-link">Marie Jensen</a></li>
-            <li class="offline"><a href="block" class="nav-link">Alex Lee</a></li>
-            <li class="offline"><a href="block" class="nav-link">Leo Gill</a></li>
-            <li class="offline"><a href="block" class="nav-link">Britney Cooper</a></li>
+            <li class="online">
+              <a href="block" class="nav-link">Orlando Diggs</a>
+            </li>
+            <li class="online">
+              <a href="block" class="nav-link">Carmen Velasco</a>
+            </li>
+            <li class="offline">
+              <a href="block" class="nav-link">Marie Jensen</a>
+            </li>
+            <li class="offline">
+              <a href="block" class="nav-link">Alex Lee</a>
+            </li>
+            <li class="offline">
+              <a href="block" class="nav-link">Leo Gill</a>
+            </li>
+            <li class="offline">
+              <a href="block" class="nav-link">Britney Cooper</a>
+            </li>
           </ul>
         </div>
       </div>
 
       <div class="chat">
         <header class="general">
-          <h2># general</h2>
-          <div class="friends-amount">1,093</div>
-          <div class="search">
-            <input
-              class="search__input"
-              type="search"
-              placeholder="search..."
-            />
-            <button><img src="./img/icons/search.svg" alt="search" /></button>
+          <div class="general-title">
+            <h2 class="h2">#general</h2>
+            <img src="./img/icons/star.svg" alt="star" height="15px" width="15px">
           </div>
-          <div class="bell">
-            <img src="./img/icons/Combined shape 366.svg" alt="bell" />
+          <div class="search_row">
+            <div class="friends-amount">
+              <img src="./img/icons/amount.svg" alt="amount" height="15px" width="10px">
+              <span>1,093</span></div>
+            <div class="search">
+              <input
+                class="search__input"
+                type="search"
+                placeholder="search..."
+              />
+              <button><img src="./img/icons/search.svg" alt="search" /></button>
+            </div>
+            <div class="bell">
+              <img src="./img/icons/Combined shape 366.svg" alt="bell" />
+            </div>
+            <div class="more">
+              <img src="./img/icons/more.svg" alt="more" />
+            </div>
           </div>
-          <div class="more"><img src="./img/icons/more.svg" alt="more" /></div>
         </header>
         <div class="messages">
           <div class="income-message">
@@ -94,7 +115,8 @@
             </div>
             <div class="message">
               <span
-                ><a href="link">@pierrhack</a> I did for 6 days in Iceland</span
+                ><a class="message-link" href="link">@pierrhack</a> I did for 6
+                days in Iceland</span
               >
             </div>
           </div>
@@ -107,7 +129,8 @@
             <div class="message">
               <span>
                 country to visit next? This is a photo with my friends -
-                celebrating in Bali <a href="photo"> my-top-places.jpg </a>
+                celebrating in Bali
+                <a class="message-link" href="photo"> my-top-places.jpg </a>
               </span>
             </div>
           </div>
@@ -119,8 +142,8 @@
             </div>
             <div class="message">
               <span>
-                <a href="link">@har_adams</a> wow it’s amazing, I want to buy a
-                van and travelling next year
+                <a class="message-link" href="link">@har_adams</a> wow it’s
+                amazing, I want to buy a van and travelling next year
               </span>
             </div>
           </div>
@@ -148,23 +171,25 @@
             </div>
             <div class="message">
               <span>
-                <a href="link">@aa_da</a> What's the reason for the van? Saving
-                money or just like to get outside? If you've got a stable source
-                of income you could always do some short term Airbnbs + buy a
-                truck/topper, build a platform in the back. That way you can
-                always convert it back to a truck and sleep in an apartment if
-                you want.
+                <a class="message-link" href="link">@aa_da</a> What's the reason
+                for the van? Saving money or just like to get outside? If you've
+                got a stable source of income you could always do some short
+                term Airbnbs + buy a truck/topper, build a platform in the back.
+                That way you can always convert it back to a truck and sleep in
+                an apartment if you want.
               </span>
             </div>
           </div>
-        </div>
 
-        <div class="input__message">
-          <button><img src="./img/icons/add-file.svg" alt="add-file" /></button>
-          <button>
-            <img src="./img/icons/microphone.svg" alt="microphone" />
-          </button>
-          <input type="text" placeholder="Message in #general" />
+          <div class="input__message">
+            <button>
+              <img src="./img/icons/add-file.svg" alt="add-file" />
+            </button>
+            <button>
+              <img src="./img/icons/microphone.svg" alt="microphone" />
+            </button>
+            <input type="text" placeholder="Message in #general" />
+          </div>
         </div>
       </div>
 

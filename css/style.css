@@ -16,6 +16,14 @@ ul {
   padding: 0;
 }
 
+.h2 {
+  margin: 0;
+  margin-right: 5px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20;
+}
+
 .h3 {
   margin: 0;
   padding: 0;
@@ -23,6 +31,17 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.message-link {
+  color: #3577ef;
+  text-decoration: none;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: transparent;
 }
 
 .aside {
@@ -38,7 +57,7 @@ li {
   padding: 25px 35px 25px 14px;
   background-color: #25272a;
   font-family: "Lato", sans-serif;
-  font-weight: regular;
+  font-weight: normal;
   font-size: 14px;
 }
 
@@ -48,13 +67,15 @@ li {
   display: grid;
   padding: 4px 13px 9px 13px;
   margin-bottom: 3px;
+  transition: all 0.3s;
 }
 
-.selected {
+.nav-link:hover,
+.nav-link:focus {
   background-color: #8d8d8d;
-  width: 200px;
-  height: 30px;
   border-radius: 8px;
+  font-weight: bold;
+  color: white;
 }
 
 .server-data {
@@ -81,4 +102,54 @@ li {
 
 .chat {
   color: #000000;
+}
+
+.general {
+  padding: 35px 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.general-title{
+  display: flex;
+}
+
+.search_row {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.friends-amount{
+  margin-right: 24px;
+}
+
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+input {
+  width: 100%;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.bell{
+  margin-left: 23px;
+  margin-right: 22px;
 }
