@@ -171,6 +171,25 @@ input {
   right: 0;
   bottom: 0;
 }
+
+.input__input {
+  padding-left: 55px;
+}
+
+.input__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input__more {
+  left: 5px;
+}
+
+.input__microphone {
+  left: 25px;
+}
+
 .button {
   height: 26px;
   width: 26px;
