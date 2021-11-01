@@ -16,15 +16,15 @@
   <body class="body">
     <aside class="aside">
       <ul>
-        <li><img src="./img/logo/1.png" alt="1" /></li>
-        <li><img src="./img/logo/2.png" alt="2" /></li>
-        <li><img src="./img/logo/3.png" alt="3" /></li>
-        <li><img src="./img/logo/4.png" alt="4" /></li>
-        <li><img src="./img/logo/5.png" alt="5" /></li>
-        <li><img src="./img/logo/6.png" alt="6" /></li>
-        <li><img src="./img/logo/7.png" alt="7" /></li>
-        <li><img src="./img/logo/+.png" alt="+" /></li>
+        <li><img src="./img/logo/1.png" alt="1" width="70" height="auto" /></li>
+        <li><img src="./img/logo/2.png" alt="2" width="70" height="auto" /></li>
+        <li><img src="./img/logo/3.png" alt="3" width="70" height="auto" /></li>
+        <li><img src="./img/logo/4.png" alt="4" width="70" height="auto" /></li>
+        <li><img src="./img/logo/5.png" alt="5" width="70" height="auto" /></li>
+        <li><img src="./img/logo/6.png" alt="6" width="70" height="auto" /></li>
+        <li><img src="./img/logo/7.png" alt="7" width="70" height="auto" /></li>
       </ul>
+      <li><img src="./img/logo/+.png" alt="+" width="70" height="auto" /></li>
     </aside>
     <main class="main">
       <div class="navigation">
@@ -40,17 +40,25 @@
             <div class="counter">11</div>
           </div>
           <ul>
-            <li class="selected"><a href="#" class="nav-link"># general</a></li>
+            <li class="selected">
+              <a href="#" class="nav-link"># general</a>
+            </li>
             <li class="usual"><a href="#" class="nav-link"># support</a></li>
-            <li class="usual"><a href="#" class="nav-link"># marketing</a></li>
+            <li class="usual">
+              <a href="#" class="nav-link"># marketing</a>
+            </li>
             <li class="usual"><a href="#" class="nav-link"># thailand</a></li>
             <li class="usual"><a href="#" class="nav-link"># bali</a></li>
             <li class="usual"><a href="#" class="nav-link"># poland</a></li>
-            <li class="usual"><a href="#" class="nav-link"># australia</a></li>
+            <li class="usual">
+              <a href="#" class="nav-link"># australia</a>
+            </li>
             <li class="usual"><a href="#" class="nav-link"># jobs</a></li>
             <li class="usual"><a href="#" class="nav-link"># startups</a></li>
             <li class="usual"><a href="#" class="nav-link"># italy</a></li>
-            <li class="usual"><a href="#" class="nav-link"># freelance</a></li>
+            <li class="usual">
+              <a href="#" class="nav-link"># freelance</a>
+            </li>
           </ul>
         </div>
         <div class="friends">
@@ -108,7 +116,9 @@
                 type="search"
                 placeholder="search..."
               />
-              <button><img src="./img/icons/search.svg" alt="search" /></button>
+              <button class="lupa button">
+                <img src="./img/icons/search.svg" alt="search" />
+              </button>
             </div>
             <div class="bell">
               <img src="./img/icons/Combined shape 366.svg" alt="bell" />
@@ -205,8 +215,8 @@
       </section>
 
       <div class="profile">
-        <h2>Amilia Luna</h2>
-        <h3>UI Designer</h3>
+        <h2 class="name__profile">Amilia Luna</h2>
+        <h3 class="job">UI Designer</h3>
         <div class="socials">
           <button><img src="./img/icons/facebook.svg" alt="facebook" /></button>
           <button><img src="./img/icons/twitter.svg" alt="twitter" /></button>
@@ -214,22 +224,32 @@
           <button><img src="./img/icons/in.svg" alt="in" /></button>
         </div>
 
-        <div class="message__button">
-          <button>message</button>
-          <button><img src="./img/icons/Button.svg" alt="button" /></button>
+        <div class="messages__buttons">
+          <button class="message__button">Message</button>
+          <button class="message__more">
+            <img src="./img/icons/Button.svg" alt="button" />
+          </button>
         </div>
 
-        <div class="title">username</div>
-        <div class="info">@amilia_lu</div>
+        <div class="title__info">
+          <div class="title">username</div>
+          <div class="info">@amilia_lu</div>
+        </div>
 
-        <div class="title">Email</div>
-        <div class="info">a-luna@gmail.com</div>
+        <div class="title__info">
+          <div class="title">Email</div>
+          <div class="info">a-luna@gmail.com</div>
+        </div>
 
-        <div class="title">Skype</div>
-        <div class="info">amiluna</div>
+        <div class="title__info">
+          <div class="title">Skype</div>
+          <div class="info">amiluna</div>
+        </div>
 
-        <div class="title">Timezone</div>
-        <div class="info">2:21 PM Local time</div>
+        <div class="title__info">
+          <div class="title">Timezone</div>
+          <div class="info">2:21 PM Local time</div>
+        </div>
       </div>
     </main>
   </body>

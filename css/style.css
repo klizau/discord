@@ -10,6 +10,14 @@ body {
   color: white;
 }
 
+.aside {
+  height: 100vh;
+}
+
+.main {
+  height: 100vh;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -59,6 +67,7 @@ button {
   font-family: "Lato", sans-serif;
   font-weight: normal;
   font-size: 14px;
+  overflow: auto;
 }
 
 .nav-link {
@@ -105,10 +114,11 @@ button {
 }
 
 .general {
-  padding: 35px 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  margin-top: 31px;
+  padding-bottom: 10px;
 }
 
 .general-title {
@@ -117,10 +127,18 @@ button {
 
 .search_row {
   display: flex;
-  justify-self: flex-end;
+  justify-content: stretch;
+  position: relative;
+}
+
+.lupa {
+  position: absolute;
+  top: 25%;
+  right: 125px;
 }
 
 .friends-amount {
+  display: flex;
   margin-right: 24px;
 }
 
@@ -135,18 +153,27 @@ button {
   outline: none;
 }
 input {
+  box-sizing: border-box;
   width: 100%;
   height: 42px;
   border: 1px solid rgba(0, 0, 0, 0.24);
   border-radius: 3px;
   padding-left: 15px;
 }
-button {
+
+.chat__block {
+  position: relative;
+}
+
+.input__message {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.button {
   height: 26px;
   width: 26px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
   cursor: pointer;
 }
 
@@ -171,4 +198,49 @@ button {
 .person {
   display: flex;
   margin-bottom: 2px;
+}
+
+.profile {
+  background-color: #d9d9d9;
+  color: black;
+  padding: 10px 20px 0 20px;
+}
+
+.name__profile {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 0 3px 0;
+}
+
+.job {
+  color: #5f6164;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 0 38px 0;
+}
+
+.socials {
+  margin-bottom: 19px;
+  display: flex;
+}
+
+.messages__buttons {
+  display: grid;
+  grid-template-columns: 133px 24px;
+}
+
+.message__button {
+  background-color: #3577ef;
+  color: white;
+  width: 133px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.title__info {
+  margin-bottom: 11px;
+}
+
+.title {
+  color: #5f6164;
 }
