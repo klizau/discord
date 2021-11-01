@@ -35,6 +35,8 @@ ul {
 .h3 {
   margin: 0;
   padding: 0;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 li {
@@ -205,6 +207,35 @@ input {
   font-size: 13px;
   line-height: 20px;
   padding: 22px 18px 0 25px;
+}
+
+.income-message {
+  margin-bottom: 10px;
+}
+
+.day {
+  color: #8d8d8d;
+  font-size: 13px;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.day::before,
+.day::after {
+  content: "";
+  background-color: #8d8d8d;
+  height: 1px;
+  flex-grow: 1;
+}
+
+.day::before {
+  margin-right: 15px;
+}
+
+.day::after {
+  margin-left: 15px;
 }
 
 .time {
