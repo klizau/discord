@@ -8,6 +8,18 @@ body {
   display: grid;
   grid-template-columns: 70px auto;
   color: white;
+  font-family: "Lato";
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(109, 109, 109, 0.5);
+  border-radius: 3px;
+  margin-right: 5px;
 }
 
 .aside {
@@ -60,7 +72,7 @@ button {
 
 .main {
   display: grid;
-  grid-template-columns: 261px auto 201px;
+  grid-template-columns: 261px auto 220px;
 }
 
 .navigation {
@@ -89,9 +101,11 @@ button {
   color: white;
 }
 
-.server-data {
+.main-title {
+  margin: 0;
+  text-transform: capitalize;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 30px;
 }
 
@@ -305,7 +319,16 @@ input {
 .profile {
   background-color: #d9d9d9;
   color: black;
-  padding: 10px 20px 0 20px;
+  padding: 270px 20px 0 20px;
+  position: relative;
+  overflow: auto;
+}
+
+.profile_photo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 
 .name__profile {
