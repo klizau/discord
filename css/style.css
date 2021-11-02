@@ -206,8 +206,11 @@ input {
 }
 
 .chat__block {
+  box-sizing: border-box;
   position: relative;
   height: 100vh;
+  overflow: auto;
+  padding: 70px 0;
 }
 
 .input__message {
@@ -249,12 +252,17 @@ input {
 .messages {
   font-size: 13px;
   line-height: 20px;
-  padding: 100px 18px 0 25px;
-  overflow: auto;
+  padding: 60px 18px 0 25px;
 }
 
 .income-message {
+  display: grid;
+  grid-template-columns: 40px auto;
   margin-bottom: 10px;
+}
+
+.person__photo {
+  border-radius: 5px;
 }
 
 .day {
