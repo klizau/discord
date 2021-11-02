@@ -143,14 +143,18 @@ button {
 
 .chat {
   color: #000000;
+  position: relative;
 }
 
 .general {
   display: grid;
+  align-items: flex-start;
   grid-template-columns: 1fr 1fr;
-  padding: 0px 24px 10px 24px;
+  padding: 31px 23px 10px 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
-  margin-top: 31px;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
 }
 
 .general-title {
@@ -161,12 +165,20 @@ button {
   display: flex;
   justify-content: stretch;
   position: relative;
+  align-items: center;
+}
+
+.search__input {
+  height: 33px;
+  width: 241px;
+  position: relative;
 }
 
 .lupa {
   position: absolute;
-  top: 25%;
-  right: 125px;
+  top: 50%;
+  right: 75px;
+  transform: translateY(-50%);
 }
 
 .friends-amount {
@@ -195,6 +207,7 @@ input {
 
 .chat__block {
   position: relative;
+  height: 100vh;
 }
 
 .input__message {
@@ -236,7 +249,8 @@ input {
 .messages {
   font-size: 13px;
   line-height: 20px;
-  padding: 22px 18px 0 25px;
+  padding: 100px 18px 0 25px;
+  overflow: auto;
 }
 
 .income-message {
