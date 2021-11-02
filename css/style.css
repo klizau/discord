@@ -106,6 +106,36 @@ button {
   margin-bottom: 14px;
 }
 
+.friends__photo {
+  border-radius: 5px;
+}
+
+.online,
+.offline {
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 35px auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.online::before,
+.offline::before {
+  content: "";
+  background-color: greenyellow;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.offline::before {
+  background-color: grey;
+}
+
 .counter {
   display: flex;
   justify-self: flex-end;
