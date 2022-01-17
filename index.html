@@ -1,12 +1,373 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Discord</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="body">
+    <aside class="aside">
+      <ul>
+        <li><img src="./img/logo/1.png" alt="1" width="70" height="auto" /></li>
+        <li><img src="./img/logo/2.png" alt="2" width="70" height="auto" /></li>
+        <li><img src="./img/logo/3.png" alt="3" width="70" height="auto" /></li>
+        <li><img src="./img/logo/4.png" alt="4" width="70" height="auto" /></li>
+        <li><img src="./img/logo/5.png" alt="5" width="70" height="auto" /></li>
+        <li><img src="./img/logo/6.png" alt="6" width="70" height="auto" /></li>
+        <li><img src="./img/logo/7.png" alt="7" width="70" height="auto" /></li>
+      </ul>
+      <li><img src="./img/logo/+.png" alt="+" width="70" height="auto" /></li>
+    </aside>
+    <main class="main">
+      <div class="navigation">
+        <div class="server-data">
+          <h1 class="main-title">nomad list</h1>
+        </div>
+        <div class="treads">
+          <span>All treads</span>
+        </div>
+        <div class="channels">
+          <div class="title-with-indicator">
+            <h3 class="h3">CHANNELS</h3>
+            <div class="counter">11</div>
+          </div>
+          <ul>
+            <li class="selected">
+              <a href="#" class="nav-link"># general</a>
+            </li>
+            <li class="usual"><a href="#" class="nav-link"># support</a></li>
+            <li class="usual">
+              <a href="#" class="nav-link"># marketing</a>
+            </li>
+            <li class="usual"><a href="#" class="nav-link"># thailand</a></li>
+            <li class="usual"><a href="#" class="nav-link"># bali</a></li>
+            <li class="usual"><a href="#" class="nav-link"># poland</a></li>
+            <li class="usual">
+              <a href="#" class="nav-link"># australia</a>
+            </li>
+            <li class="usual"><a href="#" class="nav-link"># jobs</a></li>
+            <li class="usual"><a href="#" class="nav-link"># startups</a></li>
+            <li class="usual"><a href="#" class="nav-link"># italy</a></li>
+            <li class="usual">
+              <a href="#" class="nav-link"># freelance</a>
+            </li>
+          </ul>
+        </div>
+        <div class="friends">
+          <div class="title-with-indicator">
+            <h3 class="h3">FRIENDS</h3>
+            <div class="counter">82</div>
+          </div>
+          <ul class="friend">
+            <li class="online">
+              <img
+                class="friends__photo"
+                src="./img/photos/boy1.jpg"
+                alt="boy1"
+                height="34"
+                width="34"
+              />
+              <a href="block" class="nav-link">Orlando Diggs</a>
+            </li>
+            <li class="online">
+              <img
+                class="friends__photo"
+                src="./img/photos/girl.jpg"
+                alt="girl"
+                width="34"
+                height="34"
+              />
+              <a href="block" class="nav-link">Carmen Velasco</a>
+            </li>
+            <li class="offline">
+              <img
+                class="friends__photo"
+                src="./img/photos/girl1.jpg"
+                alt="girl1"
+                height="34"
+                width="34"
+              />
+              <a href="block" class="nav-link">Marie Jensen</a>
+            </li>
+            <li class="offline">
+              <img
+                class="friends__photo"
+                src="./img/photos/boy2.jpg"
+                alt="boy2"
+                width="34"
+                height="34"
+              />
+              <a href="block" class="nav-link">Alex Lee</a>
+            </li>
+            <li class="offline">
+              <img
+                class="friends__photo"
+                src="./img/photos/boy3.jpg"
+                alt="boy3"
+                width="34"
+                height="34"
+              />
+              <a href="block" class="nav-link">Leo Gill</a>
+            </li>
+            <li class="offline">
+              <img
+                class="friends__photo"
+                src="./img/photos/girl2.jpg"
+                alt="girl2"
+                width="34"
+                height="34"
+              />
+              <a href="block" class="nav-link">Britney Cooper</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="chat">
+        <header class="general">
+          <div class="general-title">
+            <h2 class="h2">#general</h2>
+            <img
+              src="./img/icons/star.svg"
+              alt="star"
+              height="15px"
+              width="15px"
+            />
+          </div>
+          <div class="search_row">
+            <div class="friends-amount">
+              <img
+                src="./img/icons/amount.svg"
+                alt="amount"
+                height="15px"
+                width="10px"
+              />
+              <span>1,093</span>
+            </div>
+            <div class="search">
+              <input
+                class="search__input"
+                type="search"
+                placeholder="search..."
+              />
+              <button class="lupa button">
+                <img src="./img/icons/search.svg" alt="search" />
+              </button>
+            </div>
+            <div class="bell">
+              <img src="./img/icons/Combined shape 366.svg" alt="bell" />
+            </div>
+            <div class="more">
+              <img src="./img/icons/more.svg" alt="more" />
+            </div>
+          </div>
+        </header>
+        <div class="chat__block">
+          <div class="messages">
+            <div class="income-message">
+              <img
+                class="person__photo"
+                src="./img/photos/boy4.jpg"
+                alt="boy4"
+                width="32"
+                height="32"
+              />
+              <div class="text_name">
+                <div class="person">
+                  <h3 class="h3">Jeshua Stout</h3>
+                  <span class="time"> 6:38 PM </span>
+                </div>
+                <div class="message">
+                  <span
+                    ><a class="message-link" href="link">@pierrhack</a> I did
+                    for 6 days in Iceland</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <span class="day">Monday, October 22nd</span>
+
+            <div class="income-message">
+              <img
+                class="person__photo"
+                src="./img/photos/boy5.jpg"
+                alt="boy5"
+                width="32"
+                height="32"
+              />
+              <div class="text_name">
+                <div class="person">
+                  <h3 class="h3">Harold Adams</h3>
+                  <span class="time"> 5:02 AM </span>
+                </div>
+                <div class="message">
+                  <span>
+                    country to visit next? This is a photo with my friends -
+                    celebrating in Bali
+                    <a class="message-link" href="photo"> my-top-places.jpg </a>
+                    <img
+                      src="./img/photos/photo-1518534106112-7e2d9b85760a.jpg"
+                      alt="photo"
+                      width="250"
+                      height="auto"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <span class="day">Yesterday</span>
+
+            <div class="income-message">
+              <img
+                class="person__photo"
+                src="./img/photos/girl3.jpg"
+                alt="girl3"
+                width="32"
+                height="32"
+              />
+              <div class="text_name">
+                <div class="person">
+                  <h3 class="h3">Aada Laine</h3>
+                  <span class="time"> 11:54 AM </span>
+                </div>
+                <div class="message">
+                  <span>
+                    <a class="message-link" href="link">@har_adams</a> wow it’s
+                    amazing, I want to buy a van and travelling next year
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="income-message">
+              <img
+                class="person__photo"
+                src="./img/photos/girl4.jpg"
+                alt="girl4"
+                width="32"
+                height="32"
+              />
+              <div class="text_name">
+                <div class="person">
+                  <h3 class="h3">Nala Hester</h3>
+                  <span class="time"> 11:54 AM </span>
+                </div>
+                <div class="message">
+                  <span>
+                    Working from a van in Australia isn’t feasible if you need
+                    internet. It may have improved over the last years but I
+                    spent some time in a camper van around Tasmania and internet
+                    was a real problem (and Tasmania is tiny compared to the
+                    rest of the country).
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <span class="day">Today</span>
+
+            <div class="income-message">
+              <img
+                class="person__photo"
+                src="./img/photos/boy6.jpg"
+                alt="boy6"
+                width="32"
+                height="32"
+              />
+              <div class="text_name">
+                <div class="person">
+                  <h3 class="h3">Ramon Bateman</h3>
+                  <span class="time"> 11:59 AM </span>
+                </div>
+                <div class="message">
+                  <span>
+                    <a class="message-link" href="link">@aa_da</a> What's the
+                    reason for the van? Saving money or just like to get
+                    outside? If you've got a stable source of income you could
+                    always do some short term Airbnbs + buy a truck/topper,
+                    build a platform in the back. That way you can always
+                    convert it back to a truck and sleep in an apartment if you
+                    want.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input__message">
+          <button class="input__more input__btn">
+            <img src="./img/icons/add-file.svg" alt="add-file" />
+          </button>
+          <button class="input__microphone input__btn">
+            <img src="./img/icons/microphone.svg" alt="microphone" />
+          </button>
+          <input
+            class="input__input"
+            type="text"
+            placeholder="Message in #general"
+          />
+        </div>
+      </section>
+
+      <div class="profile">
+        <div class="profile_photo">
+          <img
+            src="./img/photos/girl5.jpg"
+            alt="girl5"
+            width="203"
+            height="250"
+          />
+        </div>
+        <div class="profile_info">
+          <h2 class="name__profile">Amilia Luna</h2>
+          <h3 class="job">UI Designer</h3>
+          <div class="socials">
+            <button>
+              <img src="./img/icons/facebook.svg" alt="facebook" />
+            </button>
+            <button><img src="./img/icons/twitter.svg" alt="twitter" /></button>
+            <button><img src="./img/icons/inst.svg" alt="inst" /></button>
+            <button><img src="./img/icons/in.svg" alt="in" /></button>
+          </div>
+
+          <div class="messages__buttons">
+            <button class="message__button">Message</button>
+            <button class="message__more">
+              <img src="./img/icons/Button.svg" alt="button" />
+            </button>
+          </div>
+
+          <div class="title__info">
+            <div class="title">username</div>
+            <div class="info">@amilia_lu</div>
+          </div>
+
+          <div class="title__info">
+            <div class="title">Email</div>
+            <div class="info">a-luna@gmail.com</div>
+          </div>
+
+          <div class="title__info">
+            <div class="title">Skype</div>
+            <div class="info">amiluna</div>
+          </div>
+
+          <div class="title__info">
+            <div class="title">Timezone</div>
+            <div class="info">2:21 PM Local time</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
